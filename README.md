@@ -1,19 +1,19 @@
 # ScanEQ
-¼ò½é:
+ç®€ä»‹:
 
-.ÕâÊÇÒ»¸ö¹ØÓÚ¶þÎ¬ÂëÉ¨Ãè,½âÎö,ÉÏ´«Json,ÔÙ·µ»ØÊý¾ÝµÄÒ»¸öDemo,ÆäÊµÊÇÎÒ×öµÄÒ»¸ö¼òµ¥µÄÓ¦ÓÃ
-
-
-
-.µ×²¿µ¼º½À¸
+.è¿™æ˜¯ä¸€ä¸ªå…³äºŽäºŒç»´ç æ‰«æ,è§£æž,ä¸Šä¼ Json,å†è¿”å›žæ•°æ®çš„ä¸€ä¸ªDemo,å…¶å®žæ˜¯æˆ‘åšçš„ä¸€ä¸ªç®€å•çš„åº”ç”¨
 
 
-![Alt text](https://github.com/FlashQin/ScanEQ/raw/master/ID/timg.png)
 
-.¶¥²¿¿É»¬¶¯µÄµ¼º½À¸.
-
-
-.¸÷ÖÖ×Ô¶¨Òåµ¯´°
+.åº•éƒ¨å¯¼èˆªæ 
 
 
-.¶þÎ¬ÂëÉ¨Ãè
+![é—ªç”µä¾ ](https://github.com/FlashQin/ScanEQ/raw/master/ID/timg.png)
+
+.é¡¶éƒ¨å¯æ»‘åŠ¨çš„å¯¼èˆªæ .
+
+
+.å„ç§è‡ªå®šä¹‰å¼¹çª—
+
+
+.äºŒç»´ç æ‰«æ
