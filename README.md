@@ -8,7 +8,7 @@
 .底部导航栏
 
 
-![闪电侠](https://github.com/FlashQin/Imgs/raw/master/timg.png)
+![闪电侠](https://github.com/FlashQin/Imgs/raw/master/Imgs/timg.png)
 
 .顶部可滑动的导航栏.
 
