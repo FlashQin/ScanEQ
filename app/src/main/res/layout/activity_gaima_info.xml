@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue">
+
+        <ImageView
+            android:id="@+id/img_back_gaimainfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_marg_right"
+            android:src="@mipmap/ic_return" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="改码详情"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_top" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+                    android:drawableLeft="@mipmap/ic_commodity"
+                    android:drawablePadding="10dp"
+                    android:text="商品名称"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:id="@+id/txt_name_gaimainfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/view_marg_right"
+                    android:background="@null"
+                    android:drawablePadding="10dp"
+                    android:gravity="right"
+                    android:text="请输入申请数量"
+
+                    android:textColor="@color/txt_shenma_right"
+                    android:textSize="@dimen/txt_content_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:background="@color/grey">
+
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+                    android:drawableLeft="@mipmap/ic_batch"
+                    android:drawablePadding="10dp"
+                    android:text="批次名称"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:id="@+id/txt_pname_gaimainfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/view_marg_right"
+                    android:background="@null"
+                    android:drawablePadding="10dp"
+                    android:gravity="right"
+                    android:text="请选择商品批次"
+
+                    android:textColor="@color/txt_shenma_right"
+                    android:textSize="@dimen/txt_content_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:background="@color/grey">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+
+                    android:drawableLeft="@mipmap/ic_explain"
+                    android:drawablePadding="10dp"
+                    android:text="申请说明"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="100字以内"
+                    android:textColor="@color/shuoming"
+                    android:textSize="@dimen/txt_content_small"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_shuoming_gaimainfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:background="@null"
+                android:paddingLeft="25dp"
+                android:text="请填写申请说明~"
+                android:textColor="@color/black_dongqing"
+                android:textSize="@dimen/txt_content_small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+                    android:text="改码列表"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_middle" />
+
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listview_gaimainfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+                android:divider="@color/txt_shenma_right">
+
+            </ListView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

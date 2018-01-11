@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue">
+
+        <ImageView
+            android:id="@+id/img_back_shenmainfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_marg_right"
+            android:src="@mipmap/ic_return" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="申码详情"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_top" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+                    android:drawableLeft="@mipmap/ic_commodity"
+                    android:drawablePadding="10dp"
+                    android:text="商品名称"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:id="@+id/txt_name_shenma_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/view_marg_right"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:text="请输入商品名称"
+                    android:textColor="@color/txt_shenma_right"
+                    android:textSize="@dimen/txt_content_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:background="@color/grey">
+
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+                    android:drawableLeft="@mipmap/ic_batch"
+                    android:drawablePadding="10dp"
+                    android:gravity="right"
+                    android:text="批次名称"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:id="@+id/txt_pcodename_shenma_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/view_marg_right"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:text="请输入商品名称"
+                    android:textColor="@color/txt_shenma_right"
+                    android:textSize="@dimen/txt_content_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:background="@color/grey">
+
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+                    android:drawableLeft="@mipmap/ic_type"
+                    android:drawablePadding="10dp"
+                    android:gravity="right"
+                    android:text="申码类型"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:id="@+id/txt_type_shenma_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/view_marg_right"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:text="请输入商品名称"
+                    android:textColor="@color/txt_shenma_right"
+                    android:textSize="@dimen/txt_content_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:background="@color/grey">
+
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+
+                    android:layout_marginLeft="@dimen/view_marg_right"
+                    android:drawableLeft="@mipmap/ic_calendar"
+                    android:drawablePadding="10dp"
+                    android:text="申请时间"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:id="@+id/txt_time_shenma_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/view_marg_right"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:text="请输入商品名称"
+                    android:textColor="@color/txt_shenma_right"
+                    android:textSize="@dimen/txt_content_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:background="@color/grey">
+
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+                    android:drawableLeft="@mipmap/ic_number"
+                    android:drawablePadding="10dp"
+                    android:text="申请数量"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:id="@+id/txt_nums_shenma_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/view_marg_right"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:text="请输入商品名称"
+                    android:textColor="@color/txt_shenma_right"
+                    android:textSize="@dimen/txt_content_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:background="@color/grey">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+
+                    android:drawableLeft="@mipmap/ic_explain"
+                    android:drawablePadding="10dp"
+                    android:text="申请说明"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="100字以内"
+                    android:textColor="@color/shuoming"
+                    android:textSize="@dimen/txt_content_small"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_shuoming_shenma_info"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:background="@null"
+                android:gravity="top"
+                android:hint="请填写申请说明~"
+                android:textColor="@color/black_dongqing"
+                android:textSize="@dimen/txt_content_small" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

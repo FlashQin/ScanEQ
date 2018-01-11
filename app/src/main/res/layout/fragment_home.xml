@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel_title_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/realyout_hegit_title_big"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue">
+
+
+        <TextView
+            android:id="@+id/txt_name_title_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/realyout_hegit_title_marg_bottom"
+            android:layout_marginLeft="10dp"
+            android:text="申码管理"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_top" />
+
+        <ImageView
+            android:id="@+id/img_serch_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/realyout_hegit_title_marg_bottom"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/img_right_home"
+            android:background="@mipmap/ic_search" />
+
+        <ImageView
+            android:id="@+id/img_right_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/realyout_hegit_title_marg_bottom"
+            android:layout_marginRight="@dimen/view_marg_right"
+            android:background="@mipmap/ic_iddto" />
+
+    </RelativeLayout>
+
+    <com.androidkun.xtablayout.XTabLayout
+        android:id="@+id/tab_essence"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:xTabIndicatorColor="@color/blue"
+        app:xTabIndicatorHeight="2dp"
+        app:xTabIndicatorWidth="20dp"
+        app:xTabMode="fixed"
+        app:xTabSelectedTextColor="@color/blue"
+        app:xTabSelectedTextSize="16sp"
+        app:xTabTextColor="#000"
+        app:xTabTextSize="15sp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_essence"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

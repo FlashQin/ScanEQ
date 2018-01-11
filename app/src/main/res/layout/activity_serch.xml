@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue">
+
+        <ImageView
+            android:id="@+id/img_back_serch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_marg_right"
+            android:src="@mipmap/ic_return" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_marg_right"
+            android:layout_marginRight="@dimen/view_marg_right"
+            android:layout_toRightOf="@+id/img_back_serch"
+            android:background="@drawable/shape_edittext_biankuang"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_serch_serch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:src="@mipmap/serch_black" />
+
+            <EditText
+                android:id="@+id/edt_serch"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="请输入商品名称或关键字"
+                android:textColor="@color/black_dongqing"
+                android:textSize="@dimen/txt_content_small" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <app.zf.scan.com.views.XListView
+        android:id="@+id/listview_serch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </app.zf.scan.com.views.XListView>
+</LinearLayout>

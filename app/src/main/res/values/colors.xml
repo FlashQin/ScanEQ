@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#cccccc</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="teal">#00796B</color>
+    <color name="brown">#8D6E63</color>
+    <color name="blue">#2196F3</color>
+    <color name="blue_low">#383865</color>
+    <color name="grey">#e9ecf5</color>
+    <color name="shuoming">#999999</color>
+    <color name="edt_bg">#F5F4F9</color>
+    <color name="txt_shenma_right">#BDBDBD</color>
+    <color name="txt_shenma_left">#333333</color>
+    <color name="lin_all_bg">#f1f5f9</color>
+    <color name="lin_bg">#EEEEEE</color>
+    <color name="red">#f90d16</color>
+    <color name="orange">#F57C00</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_dongqing">#666666</color>
+    <color name="parting_line_color">#d9d9d9</color>
+    <!-- 雪白色 -->
+    <color name="floralwhite">#FFFAF0</color>
+    <!-- 天蓝色 -->
+    <color name="gray">#E84A40</color>
+    <!-- 暗灰色 -->
+    <color name="dimgrey">#E22F2F</color>
+</resources>

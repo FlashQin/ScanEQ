@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/realyout_hegit_title_big"
+        android:background="@color/blue"
+        android:layout_alignParentTop="true">
+
+
+
+        <TextView
+            android:id="@+id/txt_name_title_feima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/realyout_hegit_title_marg_bottom"
+            android:layout_marginLeft="10dp"
+            android:text="废码管理"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_top"
+            />
+        <ImageView
+            android:id="@+id/img_left_feima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/img_right_feima"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            android:background="@mipmap/ic_launcher" />
+        <ImageView
+            android:id="@+id/img_right_feima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/realyout_hegit_title_marg_bottom"
+            android:layout_marginRight="@dimen/view_marg_right"
+            android:background="@mipmap/ic_cancle" />
+
+    </RelativeLayout>
+    <com.androidkun.xtablayout.XTabLayout
+        android:id="@+id/tab_feima"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:xTabMode="fixed"
+        app:xTabIndicatorColor="@color/blue"
+        app:xTabIndicatorHeight="2dp"
+        app:xTabIndicatorWidth="20dp"
+        app:xTabSelectedTextColor="@color/blue"
+        app:xTabTextColor="#000"
+        app:xTabTextSize="15sp"
+        app:xTabSelectedTextSize="16sp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_feima"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
+

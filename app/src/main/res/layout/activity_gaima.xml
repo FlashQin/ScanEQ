@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue">
+
+        <ImageView
+            android:id="@+id/img_back_gaima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_marg_right"
+            android:src="@mipmap/ic_return" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="改码"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_top" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rel_choose_name_gm"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+                    android:drawableLeft="@mipmap/ic_commodity"
+                    android:drawablePadding="10dp"
+                    android:text="商品名称"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:id="@+id/txt_name_gaima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/view_marg_right"
+                    android:background="@null"
+                    android:textColor="@color/txt_shenma_right"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/ic_getinto"
+                    android:gravity="right"
+                    android:text="请选择商品名称"
+                    android:textSize="@dimen/txt_content_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:background="@color/grey">
+
+            </View>
+
+            <RelativeLayout
+                android:id="@+id/rel_choose_pc_gm"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+                    android:drawableLeft="@mipmap/ic_batch"
+                    android:drawablePadding="10dp"
+                    android:text="批次名称"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:id="@+id/txt_pici_gaima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/view_marg_right"
+                    android:background="@null"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/txt_shenma_right"
+                    android:drawableRight="@mipmap/ic_getinto"
+                    android:gravity="right"
+                    android:text="请选择商品批次"
+                    android:textSize="@dimen/txt_content_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:background="@color/grey">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/view_marg_right"
+
+                    android:drawableLeft="@mipmap/ic_explain"
+                    android:drawablePadding="10dp"
+                    android:text="申请说明"
+                    android:textColor="@color/txt_shenma_left"
+                    android:textSize="@dimen/txt_content_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="100字以内"
+
+                    android:textColor="@color/shuoming"
+                    android:textSize="@dimen/txt_content_small" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/_edtshuoming_gm"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:background="@color/edt_bg"
+                android:gravity="top"
+                android:padding="10dp"
+                android:hint="请填写申请说明~"
+                android:textColor="@color/txt_shenma_left"
+                android:textSize="@dimen/txt_content_small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_scanone_gm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/shap_btn_green_biankuang"
+                    android:paddingBottom="@dimen/txt_padding_topandbottom"
+                    android:paddingLeft="@dimen/txt_padding_leftandright"
+                    android:paddingRight="@dimen/txt_padding_leftandright"
+                    android:paddingTop="@dimen/txt_padding_topandbottom"
+                    android:text="同页号段扫码"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/txt_content_smallest" />
+
+                <TextView
+                    android:id="@+id/txt_scantwo_gm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/shap_btn_green_biankuang"
+                    android:paddingBottom="@dimen/txt_padding_topandbottom"
+                    android:paddingLeft="@dimen/txt_padding_leftandright"
+                    android:paddingRight="@dimen/txt_padding_leftandright"
+                    android:paddingTop="@dimen/txt_padding_topandbottom"
+                    android:text="跨页号段扫码"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/txt_content_smallest"/>
+
+                <TextView
+                    android:id="@+id/txt_scanthree_gm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/shap_btn_green_biankuang"
+                    android:paddingBottom="@dimen/txt_padding_topandbottom"
+                    android:paddingLeft="@dimen/txt_padding_leftandright"
+                    android:paddingRight="@dimen/txt_padding_leftandright"
+                    android:paddingTop="@dimen/txt_padding_topandbottom"
+                    android:text="整页随机扫码"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/txt_content_smallest"/>
+
+            </LinearLayout>
+<app.zf.scan.com.views.ZQListView
+    android:id="@+id/listview_gaima_ac"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff4f7f9"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:divider="@color/txt_shenma_right"
+    android:dividerHeight="0.5dp"
+    android:drawSelectorOnTop="false"
+    android:listSelector="#00000000"
+    android:scrollbars="none"
+    android:scrollingCache="false">
+
+</app.zf.scan.com.views.ZQListView>
+
+
+
+
+            <Button
+                android:id="@+id/btn_sure_gm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="@dimen/view_marg_right"
+                android:layout_marginRight="@dimen/view_marg_right"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/select_loagin_button"
+                android:text="提交"
+
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_content_big" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

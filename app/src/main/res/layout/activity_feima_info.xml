@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@+id/img_back_feiinfo"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/ic_return"
+            android:layout_marginLeft="@dimen/view_marg_right"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="废码详情"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_top"
+            />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="申码类型"
+            android:drawableLeft="@mipmap/ic_type"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="@dimen/view_marg_right"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/txt_content_small"
+            android:textColor="@color/txt_shenma_left"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_type_feimainfo"
+            android:layout_width="wrap_content"
+            android:text="溯源码"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/txt_content_small"
+            android:background="@null"
+            android:gravity="right"
+            android:textColor="@color/txt_shenma_right"
+            android:layout_centerVertical="true"
+            android:drawablePadding="10dp"
+
+            android:layout_marginRight="@dimen/view_marg_right"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="废码说明"
+            android:drawableLeft="@mipmap/ic_explain"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="@dimen/view_marg_right"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/txt_content_small"
+            android:textColor="@color/txt_shenma_left"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="100字以内"
+            android:visibility="gone"
+            android:textColor="@color/shuoming"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/txt_content_small"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_shuomong_feimainfo"
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:text="请填写申请说明~"
+        android:paddingLeft="25dp"
+        android:layout_marginLeft="@dimen/view_marg_right"
+        android:layout_marginRight="@dimen/view_marg_right"
+        android:gravity="top"
+        android:textColor="@color/txt_shenma_right"
+        android:textSize="@dimen/txt_content_small"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="21dp"
+            android:layout_marginLeft="20dp"
+            android:text="废码列表"
+            android:textColor="@color/txt_shenma_left"
+            android:textSize="@dimen/txt_content_middle" />
+
+
+    </LinearLayout>
+<ListView
+    android:id="@+id/listview_feimainfo"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+
+    android:divider="@color/txt_shenma_right">
+
+</ListView>
+
+
+
+</LinearLayout>

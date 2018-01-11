@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.zf.scan.com.scanapp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="app.zf.scan.com.BaseHelper.MyAppcation"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity"
+            android:theme="@style/ThemeSplash"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".ShenMaActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".ShenMaInfoActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".GaiMaActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".GaiMaInfoActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".FeiMaActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".FeiMaInfoActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".ChangePassActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".SerchActivity"
+
+            android:label="@string/app_name">
+
+        </activity>
+    </application>
+
+</manifest>

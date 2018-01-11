@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  http://192.168.10.245:8080/bgms-app -->
+    <!--  http://49.4.2.92/bgms-app -->
+    <string name="url_root">http://49.4.2.92/bgms-app</string>
+
+    49.4.2.92/bgms-app
+    <!-- 登录 -->
+    <string name="login">/account/login </string>
+    <!-- 主页获取申码列表 -->
+    <string name="homepage_get_shenma">/codeApply/getPage </string>
+    <!-- 添加申码 -->
+    <string name="add_shenma">/codeApply/add</string>
+    <!-- 获取申码名称 -->
+    <string name="get_shenma_name">/codeCommon/getSelect</string>
+    <!-- 获取申码批次 -->
+    <string name="get_shenma_pici">/codeCommon/getBatchs/</string>
+    <!-- 主页获取改码列表 -->
+    <string name="gaima_get_all">/changeCodeApply/getPage</string>
+    <!-- 主页获取同页号段 -->
+    <string name="gaima_get_tongye">/codeCommon/getCheckPage </string>
+    <!-- 主页获取不同页号段 -->
+    <string name="gaima_get_butongye">/codeCommon/getCheckFile  </string>
+    <!-- 主页获取整页号段 -->
+    <string name="gaima_get_zhengye">/codeCommon/getCodePageArea  </string>
+    <!-- 主页提交改码信息 -->
+    <string name="gaima_tijiao">/changeCodeApply/add </string>
+    <!-- 改码详情获取datalist -->
+    <string name="gaima_info_get">/changeCodeApply/getChangeCodes/</string>
+
+    <!-- 主页获取废码列表 -->
+    <string name="feima_get_all">/destroyCodeApply/getPage </string>
+    <!-- 废码详情获取 -->
+    <string name="feima_get_info">/destroyCodeApply/getDestroyCodes/</string>
+
+    <!-- 废码提交废码信息 -->
+    <string name="feima_tijiao">//destroyCodeApply/add </string>
+    <!-- 修改密码 -->
+    <string name="change_password">/account/changePwd  </string>
+    <!-- 退出账号 -->
+    <string name="tuichu">/account/quit </string>
+</resources>
